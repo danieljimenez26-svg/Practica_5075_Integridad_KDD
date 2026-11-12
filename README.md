@@ -1,4 +1,4 @@
-# Informe de Calidad de Datos y Preparación KDD (ISO/IEC 25012)
+﻿# Informe de Calidad de Datos y Preparación KDD (ISO/IEC 25012)
 
 **Fecha de generación:** 2026-11-12 19:01:52  
 **Módulo:** Big Data Aplicado (Curso de Especialización en IA y Big Data - RD 279/2021)  
@@ -44,3 +44,22 @@ Tras la eliminación de valores atípicos extremos (*outliers*) y registros fuer
 1. **Bloqueo preventivo por SHA-256:** El rechazo automático de `transacciones_tienda_sur.csv` evita la inyección de datos alterados o truncados durante la transferencia de red, garantizando la trazabilidad exigida por el criterio CE 3.b.
 2. **Aislamiento no destructivo (*Quarantine*):** Ningún dato anómalo se elimina silenciosamente; tanto los ficheros corruptos como los registros individuales defectuosos quedan registrados en `quarantine_manifest.txt` para su auditoría en origen.
 3. **Estandarización temporal (ISO 8601) y filtrado IQR:** La normalización de marcas temporales y la exclusión de *outliers* provocados por fallos de sensores evita sesgos en las agregaciones OLAP, cuadros de mando de BI y futuros modelos predictivos (CE 5.b).
+
+---
+
+## 4. Evidencias Visuales de Ejecución y Despliegue
+
+### 4.1. Arquitectura Intermedia de Procesamiento (*Staging*, *Quarantine* y *Processed*)
+Distribución de directorios generada dinámicamente durante la ejecución del pipeline antes de la limpieza final:
+
+![Estructura intermedia workspace](evidencias/1.png)
+
+### 4.2. Registro de Auditoría y Trazabilidad (ejecucion_pipeline.log)
+Salida de ejecución donde se evidencia el bloqueo criptográfico SHA-256 de 	ransacciones_tienda_sur.csv y la segregación estadística de registros anómalos:
+
+![Logs de ejecución del pipeline](evidencias/2.png)
+
+### 4.3. Estructura Final del Repositorio Entregable
+Jerarquía final limpia del proyecto lista para su entrega y control de versiones:
+
+![Estructura final entregable](evidencias/3.png)
