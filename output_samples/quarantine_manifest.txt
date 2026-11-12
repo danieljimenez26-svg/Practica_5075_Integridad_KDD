@@ -1,0 +1,19 @@
+# MANIFIESTO DE CUARENTENA - CONTROL DE INTEGRIDAD Y CALIDAD
+# Fecha de ejecución: 2026-11-12 19:01:50
+================================================================================
+2026-11-12T19:01:50.195509 | transacciones_tienda_sur.csv | HASH_MISMATCH | Esperado: 0773c2cde0d45d3bfea53ebe6a0ad9f8fd7f04dabd23f55e737f64918128b83c | Calculado: 1c47dff4bf34eff59390c211052be942851d158740366ab4ab35159fd9986805
+
+# REGISTROS SEGREGADOS EN FASE 2 (SANEAMIENTO DE DATOS)
+ID: nan | Origen: transacciones_tienda_este.csv | Motivo: NULO_EN_CAMPO_CRITICO
+ID: nan | Origen: transacciones_tienda_este.csv | Motivo: NULO_EN_CAMPO_CRITICO
+ID: TXE-20261110-0034 | Origen: transacciones_tienda_este.csv | Motivo: NULO_EN_CAMPO_CRITICO
+ID: TXE-20261110-0010 | Origen: transacciones_tienda_este.csv | Motivo: TIMESTAMP_CORRUPTO_O_FUERA_DE_RANGO
+ID: TXE-20261110-0022 | Origen: transacciones_tienda_este.csv | Motivo: TIMESTAMP_CORRUPTO_O_FUERA_DE_RANGO
+ID: TXE-20261110-0039 | Origen: transacciones_tienda_este.csv | Motivo: TIMESTAMP_CORRUPTO_O_FUERA_DE_RANGO
+ID: TXE-20261110-0012 | Origen: transacciones_tienda_este.csv | Motivo: VIOLACION_REGLA_DOMINIO
+ID: TXE-20261110-0018 | Origen: transacciones_tienda_este.csv | Motivo: VIOLACION_REGLA_DOMINIO
+ID: TXE-20261110-0025 | Origen: transacciones_tienda_este.csv | Motivo: VIOLACION_REGLA_DOMINIO
+ID: TXE-20261110-0042 | Origen: transacciones_tienda_este.csv | Motivo: VIOLACION_REGLA_DOMINIO
+ID: TXE-20261110-0016 | Origen: transacciones_tienda_este.csv | Motivo: OUTLIER_ESTADISTICO_IQR (>138.61 EUR)
+ID: TXE-20261110-0032 | Origen: transacciones_tienda_este.csv | Motivo: OUTLIER_ESTADISTICO_IQR (>138.61 EUR)
+ID: TXE-20261110-0047 | Origen: transacciones_tienda_este.csv | Motivo: OUTLIER_ESTADISTICO_IQR (>138.61 EUR)

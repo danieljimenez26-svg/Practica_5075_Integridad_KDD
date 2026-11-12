@@ -1,0 +1,17 @@
+2026-11-12 19:01:50 [INFO] [FASE-1-CRYPTO] Iniciando Pasarela de Integridad Criptográfica (SHA-256)...
+2026-11-12 19:01:50 [INFO] [FASE-1-CRYPTO] OK -> transacciones_tienda_norte.csv | Hash verificado (34cc61612494...). Movido a staging/verified/
+2026-11-12 19:01:50 [CRITICAL] [FASE-1-CRYPTO] ALERTA DE INTEGRIDAD -> transacciones_tienda_sur.csv RECHAZADO. Esperado: 0773c2cde0d4... | Calculado: 1c47dff4bf34... Aislado en quarantine/tampered/
+2026-11-12 19:01:50 [INFO] [FASE-1-CRYPTO] OK -> transacciones_tienda_este.csv | Hash verificado (645e9de21d1f...). Movido a staging/verified/
+2026-11-12 19:01:50 [INFO] [FASE-1-CRYPTO] Resumen Fase 1: 2 aprobados, 1 en cuarentena.
+2026-11-12 19:01:52 [INFO] [FASE-2-3-KDD] Iniciando Fase 2 (Saneamiento y Outliers) y Fase 3 (Perfilado KDD)...
+2026-11-12 19:01:52 [INFO] [FASE-2-3-KDD] Cargando fichero verificado: transacciones_tienda_este.csv
+2026-11-12 19:01:52 [INFO] [FASE-2-3-KDD] Cargando fichero verificado: transacciones_tienda_norte.csv
+2026-11-12 19:01:52 [INFO] [FASE-2-3-KDD] Total registros cargados en bruto desde staging: 100
+2026-11-12 19:01:52 [WARNING] [FASE-2-3-KDD] Segregados 3 registros por valores nulos críticos.
+2026-11-12 19:01:52 [WARNING] [FASE-2-3-KDD] Segregados 3 registros por anomalía temporal.
+2026-11-12 19:01:52 [WARNING] [FASE-2-3-KDD] Segregados 4 registros por valores imposibles (importe <= 0 o unidades < 1).
+2026-11-12 19:01:52 [WARNING] [FASE-2-3-KDD] Segregados 3 outliers estadísticos en 'importe_eur' (umbral superior IQR: 138.61 EUR).
+2026-11-12 19:01:52 [INFO] [FASE-2-3-KDD] Registros anómalos exportados a: C:\Users\EXPERTO\Desktop\Practica_5075_Integridad_KDD\workspace\quarantine\bad_records.csv
+2026-11-12 19:01:52 [INFO] [FASE-2-3-KDD] Dataset limpio exportado a: C:\Users\EXPERTO\Desktop\Practica_5075_Integridad_KDD\workspace\processed\dataset_kdd_listo.csv (87 registros válidos).
+2026-11-12 19:01:52 [INFO] [FASE-2-3-KDD] Métricas de perfilado guardadas en: C:\Users\EXPERTO\Desktop\Practica_5075_Integridad_KDD\output_samples\metricas_perfilado.json
+2026-11-12 19:01:52 [INFO] [FASE-2-3-KDD] Informe técnico generado en: C:\Users\EXPERTO\Desktop\Practica_5075_Integridad_KDD\reports\INFORME_CALIDAD_KDD.md

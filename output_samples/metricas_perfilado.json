@@ -1,0 +1,24 @@
+{
+    "estandar_referencia": "ISO/IEC 25012",
+    "fecha_perfilado": "2026-11-12 19:01:52",
+    "integridad_criptografica_fase1": {
+        "ficheros_totales": 3,
+        "ficheros_aprobados": 2,
+        "ficheros_cuarentena": 1,
+        "tasa_integridad_pct": 66.67
+    },
+    "calidad_registros_fase2": {
+        "registros_brutos_staging": 100,
+        "registros_segregados_cuarentena": 13,
+        "registros_validos_kdd": 87,
+        "tasa_completitud_inicial_pct": 97.0,
+        "tasa_validez_final_pct": 87.0
+    },
+    "estadisticos_importe_eur_limpio": {
+        "media": 70.99,
+        "mediana": 73.44,
+        "desviacion_estandar": 26.34,
+        "percentil_25": 53.8,
+        "percentil_75": 85.34
+    }
+}
