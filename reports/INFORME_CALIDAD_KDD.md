@@ -1,6 +1,6 @@
 # Informe de Calidad de Datos y Preparación KDD (ISO/IEC 25012)
 
-**Fecha de generación:** 2026-11-12 19:01:52  
+**Fecha de generación:** 2026-11-12 20:09:19  
 **Módulo:** Big Data Aplicado (Curso de Especialización en IA y Big Data - RD 279/2021)  
 **Resultados de Aprendizaje:** RA3 (Integridad y saneamiento) y RA5 (Explotación en Business Intelligence)
 

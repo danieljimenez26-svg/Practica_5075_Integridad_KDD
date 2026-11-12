@@ -1,7 +1,7 @@
 # MANIFIESTO DE CUARENTENA - CONTROL DE INTEGRIDAD Y CALIDAD
-# Fecha de ejecución: 2026-11-12 19:01:50
+# Fecha de ejecución: 2026-11-12 20:09:12
 ================================================================================
-2026-11-12T19:01:50.195509 | transacciones_tienda_sur.csv | HASH_MISMATCH | Esperado: 0773c2cde0d45d3bfea53ebe6a0ad9f8fd7f04dabd23f55e737f64918128b83c | Calculado: 1c47dff4bf34eff59390c211052be942851d158740366ab4ab35159fd9986805
+2026-11-12T20:09:12.293335 | transacciones_tienda_sur.csv | HASH_MISMATCH | Esperado: 0773c2cde0d45d3bfea53ebe6a0ad9f8fd7f04dabd23f55e737f64918128b83c | Calculado: 1c47dff4bf34eff59390c211052be942851d158740366ab4ab35159fd9986805
 
 # REGISTROS SEGREGADOS EN FASE 2 (SANEAMIENTO DE DATOS)
 ID: nan | Origen: transacciones_tienda_este.csv | Motivo: NULO_EN_CAMPO_CRITICO
