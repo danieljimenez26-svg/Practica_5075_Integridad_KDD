@@ -1,0 +1,15 @@
+﻿# Entorno virtual de Python
+venv/
+.venv/
+env/
+
+# Datos de entrada y zonas intermedias de procesamiento
+raw_batch_202611/
+workspace/
+
+# Caché de Python y archivos del sistema/IDE
+__pycache__/
+*.py[cod]
+.vscode/
+.DS_Store
+Thumbs.db
